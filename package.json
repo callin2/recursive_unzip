@@ -1,0 +1,27 @@
+{
+  "name": "Smart Unzip",
+  "version": "1.0.0",
+  "description": "Unzip application for BaroDap",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "win_pkg": "npx electron-packager . smart_unzip --platform=win32 --arch=x64 "
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Changjin Rim",
+  "license": "",
+  "devDependencies": {
+    "electron": "^19.0.4",
+    "electron-packager": "^15.5.1"
+  },
+  "dependencies": {
+    "extract-zip": "^2.0.1"
+  }
+}
