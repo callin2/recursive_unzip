@@ -1,5 +1,5 @@
 {
-  "name": "Smart Unzip",
+  "name": "Smart.Unzip",
   "version": "1.0.0",
   "description": "Unzip application for BaroDap",
   "main": "main.js",
@@ -19,7 +19,8 @@
   "license": "",
   "devDependencies": {
     "electron": "^19.0.4",
-    "electron-packager": "^15.5.1"
+    "electron-packager": "^15.5.1",
+    "electron-winstaller": "^5.0.0"
   },
   "dependencies": {
     "extract-zip": "^2.0.1"
